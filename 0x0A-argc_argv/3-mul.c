@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sldlib.h>
+#include <stdlib.h>
 /**
  * main - program that prints its name, followed by a new line
  * @argc: argument that counts argument input
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		num_1 = atoi(argv[1]);
-		num_2 = atoi(aegv[2]);
+		num_2 = atoi(argv[2]);
 		mul = num_1 * num_2;
 		printf("%d\n", mul);
 	}
