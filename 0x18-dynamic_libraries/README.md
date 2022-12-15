@@ -1,0 +1,1 @@
+Dynamic or shared libraries occur as separate files outside of the executable files. Thus, it only needs one copy of the library’s files at runtime. At compile time, static libraries stay locked into a program. It contains the file’s programs holding a copy of the library’s files at compile time.
